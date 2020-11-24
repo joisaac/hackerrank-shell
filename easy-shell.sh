@@ -12,3 +12,6 @@ for n in {1..50}; do echo $n: done
 
 # The World of Numbers
 read x && read y; for i in {+,-,\*,/}; do echo $(($x $i $y)); done
+
+# Comparing Numbers
+read X && read Y; if (($X > $Y)); then echo "X is greater than Y"; elif (($X < $Y)); then echo "X is less than Y"; else echo "X is equal to Y"; fi
