@@ -15,3 +15,6 @@ read x && read y; for i in {+,-,\*,/}; do echo $(($x $i $y)); done
 
 # Comparing Numbers
 read X && read Y; if (($X > $Y)); then echo "X is greater than Y"; elif (($X < $Y)); then echo "X is less than Y"; else echo "X is equal to Y"; fi
+
+# Getting started with conditionals
+read c; if [[ $c == [yY] ]]; then echo "YES"; else echo "NO"; fi
