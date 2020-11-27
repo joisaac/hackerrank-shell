@@ -3,7 +3,7 @@ Trying to learn a little bit more about the linux shell. These are the solutions
 
 Exercises are classified into:
 - [Easy exercises](https://github.com/joisaac/hackerrank-shell/blob/main/easy-shell.sh)
-- [Medium exercises]()
+- [Medium exercises](https://github.com/joisaac/hackerrank-shell/blob/main/medium-shell.sh)
 - [Hard exercises]()
 
 If you have any comment, suggestion or feedback, feel free to reach out
