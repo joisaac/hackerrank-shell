@@ -21,3 +21,6 @@ read c; if [[ $c == [yY] ]]; then echo "YES"; else echo "NO"; fi
 
 # More on Conditionals
 read x && read y && read z; if (( $x == $y && $x == $z )); then echo "EQUILATERAL"; elif  (( $x == $y || $x == $z || $y == $z )); then echo "ISOSCELES"; else echo "SCALENE"; fi
+
+# Cut #1
+cut -c 3
