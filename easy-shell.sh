@@ -24,3 +24,21 @@ read x && read y && read z; if (( $x == $y && $x == $z )); then echo "EQUILATERA
 
 # Cut #1
 cut -c 3
+
+# Cut #2
+cut -c2,7
+
+# Cut #3
+cut -c2-7
+
+# Cut #4
+cut -c-4
+
+# Cut #5
+cut -f-3
+
+# Cut #6
+cut -c10-
+
+# Cut #7
+cut -d' ' -f4
