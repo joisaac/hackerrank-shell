@@ -42,3 +42,49 @@ cut -c10-
 
 # Cut #7
 cut -d' ' -f4
+
+# Cut #8
+cut -d' ' -f-3
+
+# Cut #9
+cut -f2-
+
+# Head of a Text File #1
+head -n 20
+
+# Head of a Text File #1
+head -c 2
+
+# Middle of a Text File
+head -n 12 | tail -n 11
+head -22 | tail +12
+
+# Tail of a text File #1
+tail -20
+
+# Tail of a Text File #2
+tail -c 20
+
+# 'Tr' Command #1
+tr "()" "[]"
+
+# 'Tr' Command #2
+tr -d a-z
+
+# 'Tr' Command #3
+tr -s [:space:]
+
+# Sort Command #1
+sort
+
+# Sort Command #2
+sort -r
+
+# Sort Command #3
+sort -n
+
+# Sort Command #4
+sort -nr
+
+# Sort Command #5
+sort -t $'\t' -nrk2
