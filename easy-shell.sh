@@ -88,3 +88,9 @@ sort -nr
 
 # Sort Command #5
 sort -t $'\t' -nrk2
+
+# Sort Command #6
+sort -t $'\t' -nk2
+
+# Sort Command #7
+sort -t '|' -nrk2
