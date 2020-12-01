@@ -94,3 +94,15 @@ sort -t $'\t' -nk2
 
 # Sort Command #7
 sort -t '|' -nrk2
+
+# Uniq Command #1
+uniq
+
+# Uniq Command #2
+uniq -c | cut -c7-
+
+# Uniq Command #3
+uniq -ci | cut -c7-
+
+# Uniq Command #4
+uniq -u 
