@@ -15,3 +15,9 @@ paste -d\; -s
 
 # Paste -2
 paste -d ';' - - -
+
+# Filter an Array with Patterns
+arr=($(cat)); echo ${arr[@]/*[Aa]*/}
+
+# Remove the First Capital Letter
+arr=($(cat)); echo ${arr[@]/[[:upper:]]/.}
