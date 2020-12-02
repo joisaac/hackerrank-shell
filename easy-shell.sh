@@ -106,3 +106,9 @@ uniq -ci | cut -c7-
 
 # Uniq Command #4
 uniq -u 
+
+# Read in an Array
+echo $(cat)
+
+# Slice in an Array
+arr=($(cat)); echo ${arr[@]:3:5}
