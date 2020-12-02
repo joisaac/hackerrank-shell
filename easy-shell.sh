@@ -112,3 +112,12 @@ echo $(cat)
 
 # Slice in an Array
 arr=($(cat)); echo ${arr[@]:3:5}
+
+# Concatenate an array with itself
+arr=($(cat)); echo ${arr[@]} ${arr[@]} ${arr[@]}
+
+# Display an element of the array
+arr=($(cat)); echo ${arr[3]}
+
+# Display an element of the array
+arr=($(cat)); echo ${#arr[@]}
