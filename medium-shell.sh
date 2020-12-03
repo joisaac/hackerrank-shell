@@ -21,3 +21,6 @@ arr=($(cat)); echo ${arr[@]/*[Aa]*/}
 
 # Remove the First Capital Letter
 arr=($(cat)); echo ${arr[@]/[[:upper:]]/.}
+
+# 'Awk' -3
+awk '{s=($2+$3+$4)/3; print $0,":",(s>=80?"A":(s>=60?"B":(s>=50?"C":"FAIL")))}'
