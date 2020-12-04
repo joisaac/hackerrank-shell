@@ -36,3 +36,9 @@ grep -iw 'the'
 
 # 'Grep' #3
 grep -wiv "that"
+
+# 'Sed' command #1
+sed 's/\bthe\b/this/'
+
+# 'Sed' command #2
+sed 's/thy/your/ig'
