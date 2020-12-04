@@ -127,3 +127,6 @@ grep -Ewi "the|that|then|those"
 
 # 'Grep' -B
 grep '\([0-9]\) *\1'
+
+# 'Sed' command #3
+sed 's/thy/{&}/ig'
