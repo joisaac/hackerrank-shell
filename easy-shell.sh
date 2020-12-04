@@ -121,3 +121,9 @@ arr=($(cat)); echo ${arr[3]}
 
 # Display an element of the array
 arr=($(cat)); echo ${#arr[@]}
+
+# 'Grep' -A
+grep -Ewi "the|that|then|those"
+
+# 'Grep' -B
+grep '\([0-9]\) *\1'
