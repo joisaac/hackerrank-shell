@@ -42,3 +42,9 @@ sed 's/\bthe\b/this/'
 
 # 'Sed' command #2
 sed 's/thy/your/ig'
+
+# 'Awk' -1
+awk '{if ($4 == "") print "Not all scores are available for",$1;}'
+
+# 'Awk' -2
+awk '{if ($1 >= 50 && $2 >= 50 && $3 >= 50) {print $1,": Pass"} else {print $1,": Fail"}}'
